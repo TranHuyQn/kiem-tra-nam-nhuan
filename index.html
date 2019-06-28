@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiem tra nam nhuan</title>
+</head>
+<body>
+<script>
+    let nam = Number(prompt('nhap nam'));
+    if (nam % 100 == 0) {
+        if (nam % 400 == 0) {
+            alert('nam nhuan');
+        } else {
+            alert('nam khong nhuan');
+        }
+    } else if (nam % 4 == 0) {
+        alert('nam nhuan');
+    } else {
+        alert('nam khong nhuan')
+    }
+
+</script>
+</body>
+</html>
